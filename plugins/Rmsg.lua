@@ -11,7 +11,7 @@ local function delmsg (i,naji)
     tdcli.getChatHistory(naji.messages_[0].chat_id_, naji.messages_[0].id_,0 , 100, delmsg, {msgs=msgs})
 end
 local function run(msg, matches)
-    if matches[1] == 'del' and is_owner(msg) or matches[1] == 'Del' and is_owner(msg) or matches[1] == 'rmsg' and is_owner(msg) or matches[1] == 'Rmsg' and is_owner(msg) or matches[1] == 'حذف' and is_owner(msg) then
+    if matches[1] == 'del' and is_owner(msg) then
         if tostring(msg.to.id):match("^-100") then 
             if tonumber(matches[2]) > 1000 or tonumber(matches[2]) < 1 then
                 return  '🚫 *1000*> _تعداد پیام های قابل پاک سازی در هر دفعه_ >*1* 🚫'
@@ -26,12 +26,11 @@ local function run(msg, matches)
 end
 return {
     patterns = {
-        '^[!#/]([Dd]el) (%d*)$',
-		'^([Dd]el) (%d*)$',
-		'^[!#/]([Rr]msg) (%d*)$',
-		'^([Rr]msg) (%d*)$',
-		'^(حذف) (%d*)$',
+        '^[!#/]([Dd][Ee][Ll]) (%d*)$',
     },
     run = run
 }
---BY MahDiRoO
+
+--Write By @OFFLlNE
+--Open By @LuaError
+--Channel @LuaError
