@@ -98,8 +98,15 @@ function create_config( )
     "Plugins",
     "Report",
     "Rmsg",
-    "Time",
+    "date"
     "Tools",
+    "Rmsg",
+    "Invite",
+    "BotOn_Off",
+    "cleanBlackList",
+    "CleanMember",
+    "lock_fosh",
+    "magam",
     "Write"
 	},
     sudo_users = {377450049},
