@@ -85,29 +85,27 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
 	config = {
     enabled_plugins = {
+    "AddKick",
     "BanHammer",
-    "ClearCache",			
-    "Fun",
     "GetProf",		
     "GroupManager",
     "Info",
-    "IdPw",	
     "Msg-Checks",	
     "MuteTime",
-    "Me",
+    "Nerkh",
+    "Fun",
     "Plugins",
+    "lock_fosh",
     "Report",
     "Rmsg",
-    "date"
     "Tools",
-    "Rmsg",
     "Invite",
     "BotOn_Off",
     "cleanBlackList",
     "CleanMember",
-    "lock_fosh",
+    "date",
     "magam",
-    "Write"
+    "Write
 	},
     sudo_users = {202024626},
     admins = {},
