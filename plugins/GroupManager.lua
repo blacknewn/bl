@@ -2808,8 +2808,8 @@ local settings = data[tostring(target)]["settings"]
  text = "*👥⚙️تنظیمات گروه:*\n*>🔸قفل ویرایش پیام :* "..settings.lock_edit.."\n*>🔹قفل لینک :* "..settings.lock_link.."\n*>🔸قفل یوزرنیم :* "..settings.lock_username.."\n*>🔹قفل هشتگ :* "..settings.lock_hashtags.."\n*>🔸قفل پیام مکرر :* "..settings.flood.."\n*>🔹قفل هرزنامه :* "..settings.lock_spam.."\n*>🔸قفل فراخوانی :* "..settings.lock_mention.."\n*>🔹قفل عربی :* "..settings.lock_arabic.."\n*>🔸قفل صفحات وب :* "..settings.lock_webpage.."\n*>🔹قفل فونت :* "..settings.lock_markdown.."\n*>🔸قفل انگلیسی :* "..settings.english.."\n*>🔹قفل فحش: * "..settings.fosh.."\n*>🔸قفل تبلیفات:* "..settings.ads.."\n*>🔹قفل پست ویودار:* "..settings.views.."\n*>🔸قفل اموجی:* "..settings.emoji.."\n*>🔹پیام خوشآمد گویی :* "..settings.welcome.."\n*>🔸قفل سنجاق کردن :* "..settings.lock_pin.."\n*>🔹قفل اوردن تبچی :* "..settings.lock_tabchi.."\n*>🔸محافظت در برابر ربات ها :* "..settings.lock_bots.."\n*>🔹حداکثر پیام مکرر :* *"..NUM_MSG_MAX.."*\n*____________________*\n*لیست بیصدا ها* : \n*>🔹بیصدا همه : * "..settings.mute_all.."\n*>🔸بیصدا تصاویر متحرک :* "..settings.mute_gif.."\n*>🔹بیصدا متن :* "..settings.mute_text.."\n*>🔸بیصدا کیبورد شیشه ای :* "..settings.mute_inline.."\n*>🔹بیصدا بازی های تحت وب :* "..settings.mute_game.."\n*>🔸بیصدا عکس :* "..settings.mute_photo.."\n*>🔹بیصدا فیلم :* "..settings.mute_video.."\n*>🔸بیصدا آهنگ :* "..settings.mute_audio.."\n*>🔹بیصدا صدا :* "..settings.mute_voice.."\n*>🔸بیصدا برچسب :* "..settings.mute_sticker.."\n*>🔹بیصدا مخاطب :* "..settings.mute_contact.."\n*>🔸بیصدا نقل قول :* "..settings.mute_forward.."\n*>🔹بیصدا موقعیت :* "..settings.mute_location.."\n*>🔸بیصدا اسناد :* "..settings.mute_document.."\n*>🔹بیصدا خدمات تلگرام :* "..settings.mute_tgservice.."\n*>🔸بیصدا صفحه کلید :* "..settings.mute_keyboard.."\n*____________________*\n🌐_زبان سوپرگروه_ : *فارسی 🇮🇷*\n🗓*تاریخ انقضا گروه: * _"..expire_date.."_\n✒*برنامه نویس:* @GODILOVEYOUME2"
 end
 if not lang then
-text = string.gsub(text, "yes", "[Aƈƭɪvє🔐]")
-text = string.gsub(text, "no", "[Iɲʌƈƭɪvє🔓]")
+text = string.gsub(text, "yes", "[#active🔐]")
+text = string.gsub(text, "no", "[#Inactive🔓]")
 text =  string.gsub(text, "0", "0️⃣")
 text =  string.gsub(text, "1", "1️⃣")
 text =  string.gsub(text, "2", "2️⃣")
@@ -3546,7 +3546,7 @@ end
 
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
-🔖*мαTdσя TG*
+🔖*вℓα¢к TG*
 
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 
@@ -4139,7 +4139,7 @@ end
 if matches[1] == "nerkh" or matches[1] == "Nerkh" or matches[1] == "نرخ" then
 text = [[
 `💵 نرخ فروش گروه با ربات`
-*🔖мαтαdor тɢ 💤*
+*🔖вℓα¢к тɢ 💤*
 
 ✳️_برای گروه های زیر 1000 نفر ‌_
 `➰1 ماهه  5 هزار تومان`
@@ -4163,7 +4163,7 @@ text = [[
 *〰〰〰〰〰〰〰*
 1⃣._توجه داشته باشید به هیچ وجه نباید ربات رو از گروه حذف کنید و در صورت داشتن هرگونه مشکل فقط اون رو از ادمینی گروه بردارید و به بنده مراجعه کنید._
 
-2⃣._لازم به ذکره اولویت بصورت پرداخت کارت به کارت میباشد._
+2⃣._لازم به ذکره اولویت بصورت پرداخت درگاه زرین پال میباشد._
 
 3⃣._ربات داعمی نداریم به علت کیفیت و کارای بالای ربات._
 *________________*
