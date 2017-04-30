@@ -98,26 +98,21 @@ function create_config( )
     "Plugins",
     "Report",
     "Rmsg",
-    "date",
+    "Time",
     "Tools",
-    "Invite",
-    "BotOn_Off",
-    "cleanBlackList",
-    "CleanMember",
-    "magam",		
     "Write"
 	},
     sudo_users = {202024626},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» Black v6.0.1
+    info_text = [[» MaTaDoR v5.2
 		
 		»Sudo BoT :
-		» @GODILOVEYOUME2
+		» @MahDiRoO
 		
         
-		v5 https://github.com/GODILOVEYOUME2/black
+		v5 https://github.com/MaTaDoRrOo/MaTaDoR
 GoOd luck ;))
 ]],
   }
