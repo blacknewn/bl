@@ -109,17 +109,17 @@ function create_config( )
     "magam",
     "Write"
 	},
-    sudo_users = {377450049},
+    sudo_users = {202024626},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[» MaTaDoR v5.2
+    info_text = [[» Black v6.0.1
 		
 		»Sudo BoT :
-		» @MahDiRoO
+		» @GODILOVEYOUME2
 		
         
-		v5 https://github.com/MaTaDoRrOo/MaTaDoR
+		v5 https://github.com/GODILOVEYOUME2
 GoOd luck ;))
 ]],
   }
